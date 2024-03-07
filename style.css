@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+	font-family: "Roboto", sans-serif; font-size: 16px; color: #666666; margin: 0
+}
+.top-bar{
+	width: 100%; height: 50px; line-height: 50px
+}
+.top-bar a{
+	 color: white
+}
+.top-bar a:hover{
+	 color: #FFC113
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+	padding: 10px 20px
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	color: #056CB6
+}
+.navbar .navbar-nav .nav-item .dropdown-menu{
+	background-color: #056CB6; padding-top: 0; padding-bottom: 0
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li{
+	border-bottom: 1px solid white
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+	color: white; transition: all 1s
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{
+	background-color: #FFC113; padding-left: 25px
+}
+
+main{
+	width: 100%; min-height: 600px
+}
+
+footer{
+	width: 100%; min-height: 300px
+}
+footer a{
+	text-decoration: none; color: white
+}
+footer .navbar-nav .nav-item .nav-link:hover{
+	color: #FFC113
+}
+.gach-chan{
+	border-bottom: 3px solid #FFC113; width: 100px; 
+}
+.icon a:hover{
+	color: #FFC113
+}
+.bottom-bar{
+	width: 100%; height: 50px; line-height: 50px; text-align: center; background-color: #FFC113
+}
+/*xong footer*/
+#service a{
+	text-decoration: none; color: #666666
+}
+#service a:hover{
+	color: #FFC113
+}
+/*xong service*/
+#why{
+	width: 100%; min-height: 400px; background-image: url("../images/why.jpg"); background-repeat: no-repeat; background-size: cover; background-position: center center
+}
+
+.box-cha{
+	position: relative
+}
+.truoc{
+	position: absolute; left: 0; top: 0; padding: 8px; background-color: rgba(230,230,230,0.6)
+}.sau{
+	position: absolute; left: 50%; top: 0; padding: 8px; background-color: rgba(230,230,230,0.6)
+}
+
+#cam-nhan .noi-dung{
+	text-align: center; padding: 15px 250px; display: flex; flex-direction: column; justify-content: center; align-items: center
+}
+#cam-nhan .noi-dung img{
+	width: 80px; height: 80px
+}
+#cn .owl-nav { position:absolute; left:0px; top:25%; width:100%; }
+#cn .owl-nav [class*='owl-'] {
+	font-size:40px; color: #FFC113 
+}
+
+#cn .owl-nav .owl-next{ position:absolute; right:5%;}
+#cn .owl-nav .owl-prev{ position:absolute; left:5%;}
+#cn .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:#056CB6;
+      text-decoration: none; }
+
+#tin-tuc a{
+	text-decoration: none; color: #5B5B5B; font-weight: bold; font-size: 20px
+}
+#tin-tuc a:hover{
+	color: #FFC113
+}
+
+#banner{
+	width: 100%; min-height: 300px; background-image: url("../images/pageheader.png"); background-repeat: no-repeat; background-size: cover; background-position: center center; 
+}
+.form-control-30{
+	padding: 8px; margin-bottom: 25px; width: 30%
+}
+.form-control-100{
+	padding: 8px; margin-bottom: 25px; width: 100%
+}
+#map{
+	margin: 50px 0px
+}
+
+
